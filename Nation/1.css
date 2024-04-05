@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  border: 2px solid  #000000;
+  background-color: black;
+  color:  #ffffff;
+  padding: 11px 41px;
+  border-radius: 5px;
+}
+
+nav > a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  height: 10vh;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+
+section{
+  display: flex;
+}
+
+.a1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+  width: 100%;
+  height: 10vh;
+}
+
+.a2{
+  padding: 150px 200px;
+  width: 100%;
+  height: 10vh;
+}
+
+.wrapper{ 
+  display: flex;
+  justify-content: space-between; 
+  padding: 200px; 
+  gap: 300px;
+} 
+.d1, .d2, .d3{ 
+  border: solid; 
+  padding: 30px; 
+  border-radius: 5px; 
+  border-color: grey; 
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 100px;
+  height: 10vh;
+  align-items: center;
+}
+
+footer > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+footer > div > a {
+  font-size: 16px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.a3_texts{
+  text-align: center;
+}
